@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Flutter-File-Transfer-App-with-FastAPI-Backend
-=======
 # Flutter File Transfer App with FastAPI Backend
 
 ## 📌 Overview
@@ -94,4 +91,4 @@ The FastAPI server provides the following endpoints:
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
->>>>>>> 74239f0 (Initial commit)
+
