@@ -9,6 +9,15 @@
 .history
 .svn/
 migrate_working_dir/
+*.o
+*.a
+*.so
+*.dll
+*.apk
+*.aab
+*.ipa
+*.tmp
+*.bak
 
 # IntelliJ related
 *.iml
@@ -27,8 +36,11 @@ migrate_working_dir/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
+.dart_tool/build/
+.dart_tool/package_config.json
 /build/
 
 # Symbolication related
@@ -41,3 +53,31 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+android/.cmake/
+android/build/
+android/app/.cxx/
+
+# iOS build outputs
+ios/Pods/
+ios/DerivedData/
+ios/*.xcworkspace/
+ios/Runner.xcworkspace/
+ios/build/
+
+# macOS build outputs
+macos/build/
+macos/Pods/
+macos/*.xcworkspace/
+macos/Runner.xcworkspace/
+
+# Linux build outputs
+linux/build/
+
+# Windows build outputs
+windows/build/
+
+# CMake-related
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
